@@ -1,0 +1,26 @@
+# Sensitive — never commit
+data/
+*.bak
+*.bak.*
+.env
+.env.local
+node_modules/
+.DS_Store
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Patch scripts (working files)
+patch-*.js
